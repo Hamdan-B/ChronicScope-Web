@@ -78,13 +78,11 @@ export default function HowItWorks() {
                   {/* Step Number */}
                   <div className="flex-shrink-0">
                     <div className="relative">
-                      <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-2xl opacity-20 blur-lg"></div>
-                      <div className="relative w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center text-white font-bold text-3xl">
+                      <div className="relative w-24 h-24 bg-primary rounded-2xl flex items-center justify-center text-white font-bold text-3xl shadow-lg">
                         {step.number}
                       </div>
                     </div>
                   </div>
-
                   {/* Step Content */}
                   <div className="flex-grow">
                     <h3 className="text-2xl font-bold text-primary mb-3">
@@ -94,8 +92,7 @@ export default function HowItWorks() {
                       {step.description}
                     </p>
                   </div>
-
-                  {/* Arrow */}
+                  {/* Arrow
                   {index < steps.length - 1 && (
                     <motion.div
                       animate={{ y: [0, 8, 0] }}
@@ -104,7 +101,7 @@ export default function HowItWorks() {
                     >
                       <ArrowRight className="w-6 h-6 text-secondary" />
                     </motion.div>
-                  )}
+                  )} */}
                 </div>
 
                 {/* Divider */}

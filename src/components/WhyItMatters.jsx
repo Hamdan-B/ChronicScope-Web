@@ -7,17 +7,17 @@ export default function WhyItMatters() {
   const stats = [
     {
       icon: AlertCircle,
-      number: "40M+",
+      number: "-",
       description: "People in Pakistan with chronic pain",
     },
     {
       icon: TrendingUp,
-      number: "70%",
+      number: "-",
       description: "Cases of underdiagnosis and misdiagnosis",
     },
     {
       icon: Users,
-      number: "90%",
+      number: "-",
       description: "Lack awareness about proper screening",
     },
   ];
@@ -89,15 +89,14 @@ export default function WhyItMatters() {
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
           >
             <motion.div variants={itemVariants} className="card">
-              <h3 className="text-2xl font-bold text-primary mb-4">
+              <h3 className="text-2xl font-bold text-primary dark:text-secondary mb-4">
                 The Problem in Pakistan
               </h3>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                 Chronic pain conditions remain underrecognized in Pakistan due
-                to limited access to specialized healthcare, lack of public
-                awareness, and insufficient screening tools. Many individuals
-                suffer in silence, unaware that their symptoms could be
-                medically managed.
+                to lack of public awareness, and insufficient screening tools.
+                Many individuals suffer in silence, unaware that their symptoms
+                could be medically managed.
               </p>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 This gap in healthcare creates a ripple effect, impacting
@@ -106,7 +105,7 @@ export default function WhyItMatters() {
             </motion.div>
 
             <motion.div variants={itemVariants} className="card">
-              <h3 className="text-2xl font-bold text-primary mb-4">
+              <h3 className="text-2xl font-bold text-primary dark:text-secondary mb-4">
                 Our Solution
               </h3>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
@@ -125,7 +124,7 @@ export default function WhyItMatters() {
           {/* Impact Statement */}
           <motion.div
             variants={itemVariants}
-            className="mt-12 card bg-gradient-to-r from-secondary to-primary text-textDark"
+            className="mt-12 card !bg-primary text-white"
           >
             <h4 className="text-2xl font-bold mb-4">
               Student Research Project with Real Impact

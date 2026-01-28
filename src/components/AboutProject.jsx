@@ -9,25 +9,25 @@ export default function AboutProject() {
       icon: Code2,
       title: "Built with Flutter",
       description:
-        "Cross-platform mobile development for seamless Android experience.",
+        "High-performance Android development using Flutter for a native-grade user experience.",
     },
     {
       icon: Zap,
       title: "Research-Backed",
       description:
-        "Uses validated medical questionnaires (MPQ, DN4) developed by researchers.",
+        "Uses validated clinical questionnaires, including MPQ, DN4, and the 2016 Fibromyalgia Criteria.",
     },
     {
       icon: Lightbulb,
       title: "Final Year Project",
       description:
-        "University research project addressing real healthcare needs.",
+        "Research-backed healthcare application developed as a BSSE Final Year Project.",
     },
     {
       icon: Globe,
-      title: "Open Source",
+      title: "Project Repository",
       description:
-        "Community contributions welcome. Available on GitHub for transparency.",
+        "Repository maintained on GitHub. For access or collaboration, contact the ChronicScope team.",
     },
   ];
 
@@ -95,7 +95,7 @@ export default function AboutProject() {
           {/* Detailed Description */}
           <motion.div
             variants={itemVariants}
-            className="card bg-gradient-to-r from-primary from-10% to-secondary to-90% text-white"
+            className="card !bg-primary text-white"
           >
             <h3 className="text-2xl font-bold mb-4">Our Story</h3>
             <p className="text-lg leading-relaxed mb-4">
@@ -112,9 +112,9 @@ export default function AboutProject() {
             </p>
             <p className="text-lg leading-relaxed">
               This project demonstrates that academic research can directly
-              translate into meaningful healthcare solutions. By keeping it open
-              source and free, we ensure our impact extends beyond the classroom
-              into the lives of real people.
+              translate into meaningful healthcare solutions. By keeping it free
+              to use, we ensure our impact extends beyond the classroom into the
+              lives of real people.
             </p>
           </motion.div>
         </motion.div>

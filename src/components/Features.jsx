@@ -35,7 +35,8 @@ export default function Features() {
     {
       icon: BarChart3,
       title: "DN4 Neuropathic Pain",
-      description: "DN4 scale for accurate neuropathic pain identification.",
+      description:
+        "DN4 Questionnaire for accurate neuropathic pain identification.",
     },
     {
       icon: BookOpen,
@@ -53,12 +54,13 @@ export default function Features() {
       icon: Shield,
       title: "Privacy & Security",
       description:
-        "Your health data is encrypted and never shared with third parties.",
+        "Your health data is securely stored in Firebase and never shared with third parties.",
     },
     {
       icon: Globe,
-      title: "Open Source",
-      description: "Community-driven, transparent, and available on GitHub.",
+      title: "Project Repository",
+      description:
+        "Repository maintained on GitHub. For access or collaboration, contact the ChronicScope team.",
     },
   ];
 

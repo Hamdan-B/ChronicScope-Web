@@ -13,17 +13,17 @@ export default function FuturePlans() {
       status: "In Progress",
     },
     {
-      icon: Brain,
-      title: "AI-Powered Insights",
-      description:
-        "Machine learning algorithms to provide personalized pain management recommendations.",
-      status: "Planned",
-    },
-    {
       icon: Users,
       title: "Doctor Dashboard",
       description:
         "Healthcare provider portal for monitoring patient progress and clinical analysis.",
+      status: "Planned",
+    },
+    {
+      icon: Brain,
+      title: "AI-Powered Insights",
+      description:
+        "Machine learning algorithms to provide personalized pain management recommendations.",
       status: "Planned",
     },
     {
@@ -109,7 +109,7 @@ export default function FuturePlans() {
           {/* Vision Statement */}
           <motion.div
             variants={itemVariants}
-            className="mt-16 card bg-gradient-to-r from-primary to-secondary text-white"
+            className="mt-16 card !bg-primary text-white"
           >
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
             <p className="text-lg leading-relaxed">

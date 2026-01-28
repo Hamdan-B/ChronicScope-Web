@@ -10,14 +10,14 @@ This website serves as the landing page to promote the ChronicScope mobile app a
 
 ## Features
 
-✨ **Modern Design**
+**Modern Design**
 
 - Responsive layout (mobile, tablet, desktop)
 - Dark/Light mode toggle
 - Smooth animations and transitions
 - Professional healthcare aesthetic
 
-🎯 **Key Sections**
+**Key Sections**
 
 - Hero section with app introduction
 - Features showcase (8 powerful features)
@@ -28,12 +28,12 @@ This website serves as the landing page to promote the ChronicScope mobile app a
 - Future roadmap
 - Contact & social links
 
-🌍 **Multi-language Support**
+**Multi-language Support**
 
 - Built with internationalization in mind
 - Ready for Urdu language addition
 
-🔐 **Security & Performance**
+**Security & Performance**
 
 - Fast loading with Vite
 - SEO-optimized meta tags
@@ -170,7 +170,7 @@ npm run preview
 ### Download Section
 
 - Large download CTA
-- GitHub link for open source
+- GitHub project link
 - Feature benefits list
 - System requirements
 
@@ -256,12 +256,7 @@ Powered by **Framer Motion**:
 
 ## Contributing
 
-Contributions are welcome! This is an open-source project. Feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+Contributions are welcome. If you are interested in collaborating or contributing, please contact the ChronicScope team for guidance on access and contribution procedures.
 
 ## License
 
@@ -269,8 +264,8 @@ This project is part of the ChronicScope initiative - a student research project
 
 ## Contact
 
-- **Email:** team@chronicscope.app
-- **GitHub:** [ChronicScope](https://github.com/chronicscope)
+- **Email:** hamdanb.std@gmail.com
+- **GitHub:** [ChronicScope](https://github.com/Hamdan-B)
 - **Discord/Community:** [Coming Soon]
 
 ## Disclaimer

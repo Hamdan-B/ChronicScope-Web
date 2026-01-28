@@ -39,7 +39,7 @@ export default function Download() {
           <motion.div variants={itemVariants} className="text-center mb-12">
             <h2 className="section-title">Download ChronicScope</h2>
             <p className="section-subtitle">
-              Available on Android. Free and Open Source.
+              Available on Android. Free to use.
             </p>
           </motion.div>
 
@@ -64,7 +64,7 @@ export default function Download() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <a
-                href="https://github.com/chronicscope/app/releases"
+                href="https://github.com/Hamdan-B/ChronicScope-Web/releases/download/v1.0.0/ChronicScope.apk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white text-primary font-bold rounded-lg hover:bg-opacity-90 transition-all flex items-center justify-center space-x-2 shadow-lg"
@@ -73,12 +73,12 @@ export default function Download() {
                 <span>Download APK</span>
               </a>
               <a
-                href="https://github.com/chronicscope/app"
+                href="https://github.com/Hamdan-B"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white bg-opacity-20 text-white font-bold rounded-lg hover:bg-opacity-30 transition-all"
               >
-                View on GitHub
+                GitHub Profile
               </a>
             </div>
 
@@ -91,7 +91,9 @@ export default function Download() {
             className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
           >
             <div className="card text-center">
-              <div className="text-3xl font-bold text-primary mb-2">✓</div>
+              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">
+                ✓
+              </div>
               <h4 className="font-bold text-lg text-textDark dark:text-text-light mb-2">
                 Free to Use
               </h4>
@@ -102,23 +104,28 @@ export default function Download() {
             </div>
 
             <div className="card text-center">
-              <div className="text-3xl font-bold text-primary mb-2">✓</div>
+              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">
+                ✓
+              </div>
               <h4 className="font-bold text-lg text-textDark dark:text-text-light mb-2">
-                Open Source
+                Project Repository
               </h4>
               <p className="text-gray-600 dark:text-gray-400">
-                Source code available on GitHub. Transparent and
-                community-driven.
+                For access or collaboration inquiries, please contact the
+                ChronicScope team.
               </p>
             </div>
 
             <div className="card text-center">
-              <div className="text-3xl font-bold text-primary mb-2">✓</div>
+              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">
+                ✓
+              </div>
               <h4 className="font-bold text-lg text-textDark dark:text-text-light mb-2">
                 Secure
               </h4>
               <p className="text-gray-600 dark:text-gray-400">
-                Your data stays on your device. No tracking or data selling.
+                Your data is securely stored in Firebase. No tracking or data
+                selling.
               </p>
             </div>
           </motion.div>

@@ -35,7 +35,7 @@ export default function Hero() {
         {/* Left Content */}
         <motion.div variants={itemVariants} className="space-y-6">
           <motion.div variants={itemVariants}>
-            <span className="text-sm font-semibold text-secondary bg-primary bg-opacity-10 px-4 py-2 rounded-full inline-block">
+            <span className="text-sm font-semibold text-primary dark:text-secondary bg-primary bg-opacity-10 px-4 py-2 rounded-full inline-block">
               Healthcare Innovation
             </span>
           </motion.div>
@@ -49,7 +49,7 @@ export default function Hero() {
 
           <motion.p
             variants={itemVariants}
-            className="text-xl text-secondary font-semibold"
+            className="text-xl text-primary dark:text-secondary font-semibold"
           >
             Smart Chronic Pain Screening & Awareness
           </motion.p>
@@ -76,7 +76,7 @@ export default function Hero() {
             </a>
             <a
               href="#about"
-              className="btn-outline flex items-center justify-center space-x-2 hover:shadow-lg"
+              className="btn-outline flex items-center justify-center space-x-2 hover:shadow-lg hover:bg-secondary text-primary dark:text-secondary border-primary dark:border-secondary hover:text-primary hover:dark:text-primary"
             >
               <span>Learn More</span>
               <ArrowRight className="w-5 h-5" />
@@ -101,7 +101,7 @@ export default function Hero() {
                   <div className="h-8 bg-primary rounded-lg w-3/4 mx-auto"></div>
                   <div className="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
                   <div className="h-4 bg-gray-200 dark:bg-gray-600 rounded w-5/6"></div>
-                  <div className="h-24 bg-secondary bg-opacity-20 rounded-lg mt-6"></div>
+                  <div className="h-24 bg-secondary bg-opacity-70 dark:bg-opacity-20 rounded-lg mt-6"></div>
                   <div className="h-10 bg-primary rounded-lg mt-6"></div>
                 </div>
               </div>

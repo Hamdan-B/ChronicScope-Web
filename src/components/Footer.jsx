@@ -48,8 +48,8 @@ export default function Footer() {
                 Smart Chronic Pain Screening & Awareness
               </p>
               <p className="text-sm opacity-75">
-                A research-backed healthcare solution for chronic pain detection
-                and management.
+                A research-backed healthcare solution for chronic pain
+                assessment.
               </p>
             </motion.div>
 
@@ -89,14 +89,14 @@ export default function Footer() {
               <h4 className="font-bold text-lg mb-6">Contact & Follow</h4>
               <div className="flex flex-col space-y-3">
                 <a
-                  href="mailto:team@chronicscope.app"
+                  href="mailto:hamdanb.std@gmail.com"
                   className="flex items-center space-x-2 hover:text-secondary transition-colors"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>team@chronicscope.app</span>
+                  <span>hamdanb.std@gmail.com</span>
                 </a>
                 <a
-                  href="https://github.com/chronicscope"
+                  href="https://github.com/Hamdan-B"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 hover:text-secondary transition-colors"
@@ -130,7 +130,7 @@ export default function Footer() {
             </div>
 
             <div className="text-sm opacity-75">
-              <p>Built with React, Vite, and Tailwind CSS</p>
+              <p>App built with Dart-Flutter and Firebase</p>
             </div>
           </motion.div>
 

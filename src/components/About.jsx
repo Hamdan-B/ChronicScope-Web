@@ -43,7 +43,7 @@ export default function About() {
           </motion.div>
 
           <motion.div variants={itemVariants} className="card">
-            <h3 className="text-2xl font-bold text-primary mb-4">
+            <h3 className="text-2xl font-bold text-primary dark:text-secondary mb-4">
               Understanding Chronic Pain
             </h3>
             <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
@@ -65,7 +65,7 @@ export default function About() {
             className="grid grid-cols-1 md:grid-cols-2 gap-6"
           >
             <div className="card">
-              <h4 className="text-xl font-bold text-primary mb-3">
+              <h4 className="text-xl font-bold text-primary dark:text-secondary mb-3">
                 Our Mission
               </h4>
               <p className="text-gray-700 dark:text-gray-300">
@@ -76,20 +76,20 @@ export default function About() {
             </div>
 
             <div className="card">
-              <h4 className="text-xl font-bold text-primary mb-3">
+              <h4 className="text-xl font-bold text-primary dark:text-secondary mb-3">
                 Evidence-Based Approach
               </h4>
               <p className="text-gray-700 dark:text-gray-300">
-                All questionnaires used in ChronicScope are medically validated
-                instruments (MPQ, DN4) developed by leading pain research
-                institutions worldwide.
+                ChronicScope utilizes medically validated instruments including
+                MPQ, DN4, and the 2016 ACR Fibromyalgia Diagnostic Criteria
+                developed by leading global pain research institutions.
               </p>
             </div>
           </motion.div>
 
           <motion.div
             variants={itemVariants}
-            className="card bg-gradient-to-r from-primary from-10% to-secondary to-90% text-white"
+            className="card !bg-primary text-white"
           >
             <h4 className="text-xl font-bold mb-2">Built for Pakistan</h4>
             <p>
