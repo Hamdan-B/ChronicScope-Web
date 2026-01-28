@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
+import logo from "../../assets/logo_t.png";
 
 // Header/Navigation Component
 export default function Header() {
@@ -19,11 +20,11 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-primary dark:bg-secondary rounded-lg flex items-center justify-center">
-            <span className="text-white dark:text-primary text-xl font-bold">
-              CS
-            </span>
-          </div>
+          <img
+            src={logo}
+            alt="ChronicScope Logo"
+            className="w-10 h-10 rounded-lg object-cover"
+          />
           <span className="text-xl font-bold text-primary dark:text-secondary hidden sm:inline">
             ChronicScope
           </span>
