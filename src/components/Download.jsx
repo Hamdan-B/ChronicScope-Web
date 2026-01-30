@@ -64,7 +64,7 @@ export default function Download() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <a
-                href="https://github.com/Hamdan-B/ChronicScope-Web/releases/download/v1.0.0/ChronicScope.apk"
+                href="https://github.com/Hamdan-B/ChronicScope-Web/releases/download/v1.0.1/ChronicScope.apk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white text-primary font-bold rounded-lg hover:bg-opacity-90 transition-all flex items-center justify-center space-x-2 shadow-lg"
