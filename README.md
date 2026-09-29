@@ -1,6 +1,6 @@
 # ChronicScope — Landing Page
 
-**[View Live Site →](https://your-live-url-here)**
+**[View Live Site →](https://chronicscope-9aa62.web.app)**
 
 A modern, fully responsive landing page for **ChronicScope**, a chronic pain detection mobile app built with Flutter. This web app is built as a Final Year Project (FYP) showcase site targeting Pakistani healthcare awareness.
 
